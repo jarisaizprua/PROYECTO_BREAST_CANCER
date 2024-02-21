@@ -16,7 +16,9 @@ h) Evaluación: Evaluar el rendimiento del modelo mediante diferentes parámetro
 Los siguientes modelos seleccionados para el dataset de cáncer de mama de Wisconsin son adecuados debido a sus características únicas y efectividad en problemas de clasificación:
 
 a) Regresión Logística: Es un modelo lineal que funciona bien para problemas de clasificación binaria, como determinar si un tumor es benigno o maligno. Es sencillo, rápido y proporciona una buena línea base para la evaluación del rendimiento.
+
 b) SVM (Support Vector Machine): Es eficaz en espacios de alta dimensión como este dataset, donde cada muestra tiene muchas características. SVM es conocido por su capacidad para manejar datos no lineales y proporcionar límites de decisión complejos.
+
 c) Random Forest: Es un modelo basado en árboles que funciona bien para la clasificación en datasets con múltiples características. Puede manejar características no lineales y proporciona una evaluación de la importancia de las características, lo cual es útil para la interpretación del modelo.
 
 Estos modelos ofrecen un buen punto de partida para comparar diferentes enfoques de aprendizaje automático en tareas de clasificación y son capaces de capturar complejidades en los datos a través de sus respectivos mecanismos.
