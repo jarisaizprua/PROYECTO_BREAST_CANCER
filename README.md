@@ -4,13 +4,20 @@
 El preprocesamiento consiste en las siguientes tareas:
 
 a) Carga de Datos: Utilizar Pandas para leer los archivo de origen.
+
 b) Exploración y Limpieza: Verificar valores faltantes y realiza cualquier limpieza necesaria.
+
 c) Codificación de Etiquetas: Convertir las etiquetas de clasificación de texto a números.
+
 d) Normalización: Escalar las características numéricas para mejorar la convergencia del modelo.
+
 e) Selección de modelos: Utilizar modelos que sean efectivos en problemas de clasificación.
+
 f) Entrenamiento del modelo: Entrenar el modelo usando datos de entrenamiento.
-g) Predicción: Realizar predicciones con los datos de prueba.
-h) Evaluación: Evaluar el rendimiento del modelo mediante diferentes parámetros y matriz de confusión.
+
+g) Predicción del modelo: Realizar predicciones con los datos de prueba.
+
+h) Evaluación del modelo: Evaluar el rendimiento del modelo mediante diferentes parámetros y matriz de confusión.
 
 3) Selección de modelos.
 Los siguientes modelos seleccionados para el dataset de cáncer de mama de Wisconsin son adecuados debido a sus características únicas y efectividad en problemas de clasificación:
