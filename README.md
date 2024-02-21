@@ -1,6 +1,6 @@
 # PROYECTO_FINAL_BREAST_CANCER
 
-1) Preprocesamiento de datos.
+## 1) Preprocesamiento de datos.
 El preprocesamiento consiste en las siguientes tareas:
 
 a) Carga de Datos: Utilizar Pandas para leer los archivo de origen.
@@ -11,15 +11,17 @@ c) Codificación de Etiquetas: Convertir las etiquetas de clasificación de text
 
 d) Normalización: Escalar las características numéricas para mejorar la convergencia del modelo.
 
+## 2) Proceso de modelamiento.
+
 e) Selección de modelos: Utilizar modelos que sean efectivos en problemas de clasificación.
 
-f) Entrenamiento del modelo: Entrenar el modelo usando datos de entrenamiento.
+f) Entrenamiento del modelo: Entrenar el modelo usando datos de entrenamiento; el modelo aprenderá patrones y relaciones entre las características y las etiquetas.
 
 g) Predicción del modelo: Realizar predicciones con los datos de prueba.
 
-h) Evaluación del modelo: Evaluar el rendimiento del modelo mediante diferentes parámetros y matriz de confusión.
+h) Evaluación del modelo: Utilizar el conjunto de prueba para evaluar el rendimiento del modelo.
 
-3) Selección de modelos.
+## 3) Selección de modelos.
 Los siguientes modelos seleccionados para el dataset de cáncer de mama de Wisconsin son adecuados debido a sus características únicas y efectividad en problemas de clasificación:
 
 a) Regresión Logística: Es un modelo lineal que funciona bien para problemas de clasificación binaria, como determinar si un tumor es benigno o maligno. Es sencillo, rápido y proporciona una buena línea base para la evaluación del rendimiento.
