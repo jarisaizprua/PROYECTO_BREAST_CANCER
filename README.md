@@ -1,6 +1,6 @@
 # PROYECTO_FINAL_BREAST_CANCER
 
-## 1) Preprocesamiento de datos.
+## 1) Preprocesamiento de datos
 El preprocesamiento consiste en las siguientes tareas:
 
 a) Carga de Datos: Utilizar Pandas para leer los archivo de origen.
@@ -11,7 +11,7 @@ c) Codificación de Etiquetas: Convertir las etiquetas de clasificación de text
 
 d) Normalización: Escalar las características numéricas para mejorar la convergencia del modelo.
 
-## 2) Proceso de modelamiento.
+## 2) Proceso de modelamiento
 
 e) Selección de modelos: Utilizar modelos que sean efectivos en problemas de clasificación.
 
@@ -21,7 +21,7 @@ g) Predicción del modelo: Realizar predicciones con los datos de prueba.
 
 h) Evaluación del modelo: Utilizar el conjunto de prueba para evaluar el rendimiento del modelo.
 
-## 3) Selección de modelos.
+## 3) Selección de modelos
 Los siguientes modelos seleccionados para el dataset de cáncer de mama de Wisconsin son adecuados debido a sus características únicas y efectividad en problemas de clasificación:
 
 a) Regresión Logística: Es un modelo lineal que funciona bien para problemas de clasificación binaria, como determinar si un tumor es benigno o maligno. Es sencillo, rápido y proporciona una buena línea base para la evaluación del rendimiento.
@@ -32,7 +32,16 @@ c) Random Forest: Es un modelo basado en árboles que funciona bien para la clas
 
 Estos modelos ofrecen un buen punto de partida para comparar diferentes enfoques de aprendizaje automático en tareas de clasificación y son capaces de capturar complejidades en los datos a través de sus respectivos mecanismos.
 
-## 4) Resumen
+## 4) Análisis de matriz de confusión
+El análisis de las matrices de confusión para cada modelo se explica a continuación:
+
+a) La matriz de confusión para la Regresión Logística muestra un alto número de verdaderos positivos (70) y verdaderos negativos (41), indicando un buen rendimiento en la clasificación correcta de ambas clases. Hay muy pocos falsos positivos (1) y falsos negativos (2), lo que sugiere que el modelo tiene una alta precisión y sensibilidad. La asimetría hacia los verdaderos positivos y negativos refleja una alta tasa de aciertos en comparación con los errores, lo cual es positivo para un modelo de clasificación binaria.
+
+b) La matriz de confusión para el modelo SVM muestra los mismos resultados que la de Regresión Logística, con 70 verdaderos positivos y 41 verdaderos negativos, lo que indica una alta capacidad de clasificar correctamente ambas clases. La presencia de sólo 1 falso positivo y 2 falsos negativos sugiere que el modelo SVM tiene una alta precisión y recall, similar a la Regresión Logística, lo cual es indicativo de un modelo de clasificación bien ajustado y eficaz para este conjunto de datos.
+
+c) La matriz de confusión del modelo Random Forest muestra 70 verdaderos positivos y 40 verdaderos negativos, lo que indica un alto número de clasificaciones correctas. Hay 1 falso positivo y 3 falsos negativos. Aunque esta matriz muestra un desempeño ligeramente menor comparado con los otros dos modelos (Logistic Regression y SVM), aún así, el Random Forest es muy eficaz, con un alto número de aciertos y muy pocos errores de clasificación.
+
+## 5) Análisis de métricas
 En base a la tabla resumen obtenida, podemos concluir que los tres modelos de clasificación evaluados en el conjunto de datos muestran una eficacia notablemente alta. La Regresión Logística y el SVM alcanzan idénticas métricas de rendimiento, destacando su precisión y capacidad para equilibrar la sensibilidad y la especificidad, como lo indica su elevado AUC de 0.997380. El Random Forest, aunque ligeramente inferior en todas las métricas, también demuestra un rendimiento excepcional, con un AUC de 0.996888, lo que sugiere una mínima diferencia en la capacidad de discriminación entre los modelos.
 
          Modelo           Accuracy   Precision  Recall   F1-Score    AUC
