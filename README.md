@@ -33,9 +33,17 @@ c) Random Forest: Es un modelo basado en árboles que funciona bien para la clas
 Estos modelos ofrecen un buen punto de partida para comparar diferentes enfoques de aprendizaje automático en tareas de clasificación y son capaces de capturar complejidades en los datos a través de sus respectivos mecanismos.
 
 ## 4) Resumen
-En base a la tabla resumen obtenida, podemos resumir que los tres modelos de clasificación evaluados en el conjunto de datos: Regresión Logística, SVM y Random Forest; muestran una eficacia notablemente alta. La Regresión Logística y el SVM alcanzan idénticas métricas de rendimiento, destacando su precisión y capacidad para equilibrar la sensibilidad y la especificidad, como lo indica su elevado AUC de 0.997380. El Random Forest, aunque ligeramente inferior en todas las métricas, también demuestra un rendimiento excepcional, con un AUC de 0.996888, lo que sugiere una mínima diferencia en la capacidad de discriminación entre los modelos.
+En base a la tabla resumen obtenida, podemos concluir que los tres modelos de clasificación evaluados en el conjunto de datos muestran una eficacia notablemente alta. La Regresión Logística y el SVM alcanzan idénticas métricas de rendimiento, destacando su precisión y capacidad para equilibrar la sensibilidad y la especificidad, como lo indica su elevado AUC de 0.997380. El Random Forest, aunque ligeramente inferior en todas las métricas, también demuestra un rendimiento excepcional, con un AUC de 0.996888, lo que sugiere una mínima diferencia en la capacidad de discriminación entre los modelos.
 
          Modelo           Accuracy   Precision  Recall   F1-Score    AUC
     Logistic Regression   0.973684   0.973719  0.973684  0.973621  0.997380
           SVM             0.973684   0.973719  0.973684  0.973621  0.997380
      Random Forest        0.964912   0.965205  0.964912  0.964738  0.996888
+
+El concepto de cada métrica se explica a continuación:
+    
+    * Accuracy: Proporción de predicciones correctas entre el total de casos.
+    * Precision: De todas las predicciones positivas, cuántas son realmente positivas.
+    * Recall (Sensibilidad): De todos los casos positivos reales, cuántos se predicen correctamente.
+    * F1-Score: Promedio armónico de precisión y recall, útil cuando las clases están desbalanceadas.
+    * AUC (Área bajo la curva ROC): Mide la capacidad de un modelo para discriminar entre clases positivas y negativas; un AUC más alto indica un mejor rendimiento.
