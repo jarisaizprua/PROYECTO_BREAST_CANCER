@@ -42,12 +42,12 @@ b) La matriz de confusión para el modelo SVM muestra los mismos resultados que 
 c) La matriz de confusión del modelo Random Forest muestra 70 verdaderos positivos y 40 verdaderos negativos, lo que indica un alto número de clasificaciones correctas. Hay 1 falso positivo y 3 falsos negativos. Aunque esta matriz muestra un desempeño ligeramente menor comparado con los otros dos modelos (Regresión Logística y SVM), aún así, el Random Forest es muy eficaz, con un alto número de aciertos y muy pocos errores de clasificación.
 
 ## 5) Análisis de métricas
-En base a la tabla resumen obtenida, podemos concluir que los tres modelos de clasificación evaluados en el conjunto de datos muestran una eficacia notablemente alta. La Regresión Logística y el SVM alcanzan idénticas métricas de rendimiento, destacando su precisión y capacidad para equilibrar la sensibilidad y la especificidad, como lo indica su elevado AUC de 0.997380. El Random Forest, aunque ligeramente inferior en todas las métricas, también demuestra un rendimiento excepcional, con un AUC de 0.996397, lo que sugiere una mínima diferencia en la capacidad de discriminación entre los modelos.
+En base a la tabla resumen obtenida, podemos concluir que los tres modelos de clasificación evaluados en el conjunto de datos muestran una eficacia notablemente alta. La Regresión Logística y el SVM alcanzan idénticas métricas de rendimiento, destacando su precisión y capacidad para equilibrar la sensibilidad y la especificidad, como lo indica su elevado AUC de 0.997380. El Random Forest, aunque ligeramente inferior en todas las métricas, también demuestra un rendimiento excepcional, con un AUC de 0.995414, lo que sugiere una mínima diferencia en la capacidad de discriminación entre los modelos.
 
          Modelo           Accuracy   Precision  Recall   F1-Score    AUC
     Regresión Logística   0.973684   0.973719  0.973684  0.973621  0.997380
           SVM             0.973684   0.973719  0.973684  0.973621  0.997380
-     Random Forest        0.964912   0.965205  0.964912  0.964738  0.996397
+     Random Forest        0.964912   0.965205  0.964912  0.964738  0.995414
 
 El concepto de cada métrica se explica a continuación:
     
